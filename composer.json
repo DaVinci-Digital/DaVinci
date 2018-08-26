@@ -1,0 +1,27 @@
+{
+  "name": "davinci/davinci",
+  "description": "A modern Laravel 5 CMS and scaffolding framework",
+  "type": "library",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Zachary Schuessler",
+      "email": "zac@davincidigital.co"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Davinci\\Davinci\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "5.3.*||5.4.*||5.5.*||5.6.*||5.7.*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Davinci\\Davinci\\DavinciServiceProvider"
+      ]
+    }
+  }
+}
